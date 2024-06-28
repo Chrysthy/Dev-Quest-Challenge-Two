@@ -3,8 +3,19 @@
 html {
     background: linear-gradient(to bottom, rgb(244, 95, 137), rgb(226, 100, 149), rgb(208, 104, 161), rgb(188, 108, 173), rgb(170, 113, 185), rgb(151, 117, 197), rgb(133, 121, 209), rgb(114, 126, 221), rgb(95, 130, 232), rgb(77, 134, 244));
     background-repeat: no-repeat;
-    
+
     min-height: 100%;
     font-family: 'Roboto', sans-serif;
+    color: #fff;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    text-transform: uppercase;
+}
