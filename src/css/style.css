@@ -26,13 +26,37 @@ h1 {
     padding-bottom: 10px;
 }
 
-p {
+.texto, .obrigatorio {
     text-transform: lowercase;
     font-size: 15px;
 
 }
 
 .formulario {
-    display: flex;
-    flex-direction: column;
+    background-color: #fff;
+    width: 340px;
+    height: 378px;
+
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+
+.obrigatorio {
+    color: #000;
+}
+
+
+button {
+    background-color: #3CCC87;
+    color: #fff;
+    border: none;
+
+    width: 298px;
+    height: 41.13px;
+
+    border-radius: 5px;
+    cursor: pointer;
+
 }
