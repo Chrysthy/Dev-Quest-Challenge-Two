@@ -18,4 +18,18 @@ main {
 
 h1 {
     text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p {
+    text-transform: lowercase;
+    font-size: 15px;
+   
+}
+
+.formulario {
+    background-color: #fff;
+    width: 200px;
+    height: 200px;
 }
