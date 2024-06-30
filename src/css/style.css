@@ -44,6 +44,13 @@ h1 {
 
 }
 
+.aviso {
+    color: #ff0000;
+    font-size: 8px;
+
+}
+
+
 /* mexer dentro do quadrado branco */
 input,
 textarea {
