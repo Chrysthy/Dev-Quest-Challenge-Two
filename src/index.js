@@ -5,3 +5,7 @@
 4 - Depois de obter TODOS os elementos, é necessário percorrer todos usando o forEach e fazer a verificação se o input está vazio ou não usando .value === ""
 
 */
+
+const form = document.getElementById('form')
+const input = document.querySelector('.input');
+
