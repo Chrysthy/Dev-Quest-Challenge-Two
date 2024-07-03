@@ -9,3 +9,10 @@
 const form = document.getElementById('form')
 const input = document.querySelector('.input');
 
+form.addEventListener('submit', function (event) {
+    event.preventDefault();
+})
+
+function checkValidation() {
+
+}
