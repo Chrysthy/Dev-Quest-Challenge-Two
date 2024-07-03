@@ -11,13 +11,11 @@ const inputs = document.querySelector('.input');
 
 form.addEventListener('submit', function (event) {
     event.preventDefault();
+
+    inputs.forEach(function (input) {
+
+        if (input === '') {
+            input.classList.add('aviso')
+        }
+    })
 })
-
-function checkValidation() {
-
-const inputValue = inputs.value.trim()
-
-    if (inputValue === ' ') {
-        inputs.classList.add('aviso')
-    }
-}
