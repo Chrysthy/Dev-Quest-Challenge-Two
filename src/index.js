@@ -16,6 +16,9 @@ form.addEventListener('submit', function (event) {
 
         if (input === '') {
             input.classList.add('aviso')
+
+        } else {
+            input.classList.remove('aviso')
         }
     })
 })
