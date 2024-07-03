@@ -7,7 +7,7 @@
 */
 
 const form = document.getElementById('form')
-const input = document.querySelector('.input');
+const inputs = document.querySelector('.input');
 
 form.addEventListener('submit', function (event) {
     event.preventDefault();
@@ -15,4 +15,9 @@ form.addEventListener('submit', function (event) {
 
 function checkValidation() {
 
+const inputValue = inputs.value.trim()
+
+    if (inputValue === ' ') {
+        inputs.classList.add('aviso')
+    }
 }
