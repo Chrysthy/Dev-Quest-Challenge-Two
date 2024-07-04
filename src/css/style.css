@@ -37,7 +37,7 @@ h1 {
 .formulario {
     background-color: #fff;
     width: 340px;
-    height: 450px;
+    height: 440px;
 
     padding: 20px;
 
@@ -65,7 +65,7 @@ textarea {
 
 .obrigatorio {
     color: #000;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     font-size: 13px;
 }
 
