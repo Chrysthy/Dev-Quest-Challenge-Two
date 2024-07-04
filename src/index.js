@@ -7,14 +7,14 @@
 */
 
 const form = document.getElementById('form')
-const inputs = document.querySelector('.input');
+const inputs = document.querySelectorAll('.input');
 
 form.addEventListener('submit', function (event) {
     event.preventDefault();
 
     inputs.forEach(function (input) {
 
-        if (input === '') {
+        if (input.value === '') {
             input.classList.add('aviso')
 
         } else {

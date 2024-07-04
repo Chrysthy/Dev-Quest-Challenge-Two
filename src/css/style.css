@@ -91,3 +91,11 @@ button {
     cursor: pointer;
 
 }
+
+.valido {
+    border-color: #3CCC87;
+}
+
+.invalido {
+    border-color: #ff0000;
+}
