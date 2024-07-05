@@ -26,10 +26,13 @@ form.addEventListener('submit', function (event) {
         if (input.value.trim() === '') {
             input.classList.add('invalido')
             input.classList.remove('valido')
+            
+            
 
         } else {
             input.classList.add('valido')
             input.classList.remove('invalido')
+           
         }
     })
 })
