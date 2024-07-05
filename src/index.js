@@ -16,7 +16,6 @@
 
 const form = document.getElementById('form')
 const inputs = document.querySelectorAll('.input');
-const camposObrigatorios = document.querySelectorAll('.aviso')
 
 form.addEventListener('submit', function (event) {
     event.preventDefault();
@@ -26,13 +25,13 @@ form.addEventListener('submit', function (event) {
         if (input.value.trim() === '') {
             input.classList.add('invalido')
             input.classList.remove('valido')
-            
+            input.nextElementSibling.classList.add('mostrar')
             
 
         } else {
             input.classList.add('valido')
             input.classList.remove('invalido')
-           
+            input.nextElementSibling.classList.remove('mostrar')
         }
     })
 })
