@@ -1,6 +1,10 @@
-# Challenge Two - DevQuest Course 🧙🏻‍♀️
 
-<br>
+
+<h1 align="center">
+
+Challenge Two - DevQuest Course 🧙🏻‍♀️</h1>
+
+
 
 ## 🛠️ Tools Utilized:
 
