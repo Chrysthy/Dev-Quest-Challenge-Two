@@ -30,7 +30,7 @@ Challenge Two - DevQuest Course 🧙🏻‍♀️</h1>
 <br>
 
 
-## 🛠️ Tools Utilized:
+## 🛠️ Technologies
 
 - HTML;
 - CSS;
